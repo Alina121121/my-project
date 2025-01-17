@@ -15,21 +15,21 @@ const Features = () => {
         <div className={s.featuresRow}>
         <div className={s.branding}>
             <div className={s.brandingRow}>
-            <Link><img src={list}></img></Link>
+            <Link><img src={list} alt="branding"></img></Link>
             <Link><h5>Branding</h5></Link>
             </div>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
         </div>
         <div className={s.development}>
             <div className={s.developmentRow}>
-            <Link><img src={pencil}></img></Link>
+            <Link><img src={pencil} alt="development"></img></Link>
             <Link><h5>Development</h5></Link>
             </div>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
         </div>
         <div className={s.consulting}>
         <div className={s.consultingRow}>
-            <Link><img src={speack}></img></Link>
+            <Link><img src={speack} alt="consulting"></img></Link>
             <Link><h5>Consulting</h5></Link>
             </div>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
