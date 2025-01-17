@@ -1,0 +1,137 @@
+.footerImg img{
+    margin-top: 50px;
+    width: 100%;
+  }
+.footer {
+    position: relative;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+.text h1{
+    color: #0eb493;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: -470px;
+}
+.factsContainer {
+    display: flex;
+    margin-top: 25px;
+    gap: 150px;
+    margin-left: 250px;
+  }
+  
+  .factCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+.clock img, .users img, .rocket img, .cup img {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 40px 40px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+.clock h3 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-left: -10px;
+}
+.users h3 {
+    font-size: 60px;
+    margin-left: 3px;
+    font-weight: 600;
+    margin-top: 34px;
+}
+.rocket h3 {
+    font-size: 60px;
+    margin-left: 3px;
+    font-weight: 600;
+    margin-top: 34px;
+}
+.cup h3 {
+    font-size: 60px;
+    margin-left: 25px;
+    font-weight: 600;
+    margin-top: 34px;
+}
+.clock p {
+    font-size: 18px;
+    margin-left: -16px;
+    font-weight: 400;
+}
+.users p {
+    font-size: 18px;
+    margin-left: -22px;
+    font-weight: 400;
+}
+.rocket p {
+    font-size: 18px;
+    margin-left: -33px;
+    font-weight: 400;
+}
+.cup p {
+    font-size: 18px;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .footerImg img {
+      width: 100%;
+    }
+  
+    .factsContainer {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .factCard {
+      margin-bottom: 20px;
+    }
+  
+    .clock img,
+    .users img,
+    .rocket img,
+    .cup img {
+      padding: 30px;
+    }
+  
+    .clock h3,
+    .users h3,
+    .rocket h3,
+    .cup h3 {
+      font-size: 40px;
+    }
+  
+    .clock p,
+    .users p,
+    .rocket p,
+    .cup p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .factsContainer {
+      gap: 100px;
+      margin-left: 100px;
+    }
+  
+    .clock h3,
+    .users h3,
+    .rocket h3,
+    .cup h3 {
+      font-size: 50px;
+    }
+  
+    .clock p,
+    .users p,
+    .rocket p,
+    .cup p {
+      font-size: 18px;
+    }
+}

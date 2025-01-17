@@ -1,0 +1,32 @@
+.SecondFooter {
+    background-color: #0eb493;
+    display: flex;
+    margin-top: 115px;
+    height: 85px;
+}
+.SecondFooter img {
+    margin: 27px 210px;
+    width: 90px;
+    height: 25px;
+}
+.SecondFooter h5 {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    margin-left: 540px;
+    margin-top: 36px;
+}
+@media (max-width: 768px) {
+    .SecondFooter {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .SecondFooter h5 {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
