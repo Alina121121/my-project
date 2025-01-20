@@ -81,14 +81,17 @@
 @media (max-width: 768px) {
     .footerImg img {
       width: 100%;
+      margin-top: 20px;
     }
   
     .factsContainer {
-      flex-direction: column;
-      align-items: center;
-      margin-left: 0;
+      margin-left: 85px;
+      gap: 27px;
     }
-  
+    .text h1{
+        font-size: 15px;
+        margin-top: -125px;
+    }
     .factCard {
       margin-bottom: 20px;
     }
@@ -97,41 +100,44 @@
     .users img,
     .rocket img,
     .cup img {
-      padding: 30px;
+      padding: 10px;
+      width: 10px;
+      height: 10px;
+      margin-top: -10px;
     }
   
     .clock h3,
     .users h3,
     .rocket h3,
     .cup h3 {
-      font-size: 40px;
+      font-size: 15px;
+      margin-top: -1px;
     }
-  
-    .clock p,
-    .users p,
-    .rocket p,
+    .clock h3 {
+        margin-left: -2px;
+    }
+    .cup h3 {
+        margin-left: 6px;
+
+    }
+    .clock p {
+        font-size: 6px;
+        margin-left: -10px;
+        font-weight: 300;
+    }
+    .users p {
+        font-size: 6px;
+        margin-left: -10px;
+        font-weight: 300;
+    }
+    .rocket p {
+        font-size: 6px;
+        margin-left: -10px;
+        font-weight: 300;
+    }
     .cup p {
-      font-size: 16px;
+        font-size: 6px;
+        font-weight: 300;
     }
   }
-  
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .factsContainer {
-      gap: 100px;
-      margin-left: 100px;
-    }
-  
-    .clock h3,
-    .users h3,
-    .rocket h3,
-    .cup h3 {
-      font-size: 50px;
-    }
-  
-    .clock p,
-    .users p,
-    .rocket p,
-    .cup p {
-      font-size: 18px;
-    }
-}
+

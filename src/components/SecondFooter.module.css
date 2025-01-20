@@ -18,15 +18,19 @@
 }
 @media (max-width: 768px) {
     .SecondFooter {
-      flex-direction: column;
-      text-align: center;
-      height: auto;
-      padding: 20px;
+        display: flex;
+        margin-top: 0;
+        height: 50px;
     }
-  
+    .SecondFooter img {
+        margin: 26px 70px;
+        width: 50px;
+        height: 14px;
+    }
     .SecondFooter h5 {
-      margin-left: 0;
-      margin-top: 10px;
+      margin-left: 70px;
+      margin-top: 32px;
+      font-size: 5px;
     }
   }
-  
+

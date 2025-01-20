@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import s from "./Header.module.css";
 import logo from "../images/logo.png";
 import { NavLink } from "react-router-dom";
+import icon from "../images/icon.png"
 
 const Header = () => {
   // Состояние для управления видимостью меню
@@ -17,9 +18,7 @@ const Header = () => {
       <img src={logo} alt="Logo" />
       
       <button className={s.burgerButton} onClick={toggleMenu}>
-        <span className={s.burgerLine}></span>
-        <span className={s.burgerLine}></span>
-        <span className={s.burgerLine}></span>
+        <img src={icon} alt="icon" className={s.icon} style={{ width: "35px", height: "30px", margin: "0" }}></img>
       </button>
 
       <div className={`${s.nav} ${isMenuOpen ? s.navOpen : ""}`}>
